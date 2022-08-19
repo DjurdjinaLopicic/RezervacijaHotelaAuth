@@ -171,6 +171,8 @@ app.post('/login', (req, res) => {
         
 })
 
-app.listen( {port:9000}, async() => {
+port = process.env.PORT || 9000
+
+app.listen( {port:port}, async() => {
     await sequelize.authenticate();
 } );
