@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
+    "use_env_variable": "DATABASE_URL",
     "username": "root",
     "password": null,
     "database": "database_production",
-    "host": "https://rezervacija-hotela-auth.herokuapp.com",
-    "dialect": "mysql"
+    "dialect": "postgres"
   }
 }
