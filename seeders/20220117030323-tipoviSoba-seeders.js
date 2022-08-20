@@ -4,25 +4,39 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.bulkInsert('TipoviSobas', [
       {//1
-        tip: 'jednokrevetna'
+        tip: 'jednokrevetna',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {//2
-        tip: 'dvokrevetna'
+        tip: 'dvokrevetna',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {//3
-        tip: 'trokrevetna'
+        tip: 'trokrevetna',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {//4
-        tip: 'cetvorokrevetna'
+        tip: 'cetvorokrevetna',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {//5
-        tip: 'petokrevetna'
+        tip: 'petokrevetna',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {//6
-        tip: 'porodicna'
+        tip: 'porodicna',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {//7
-        tip: 'suite'
+        tip: 'suite',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       }
     ])
   },

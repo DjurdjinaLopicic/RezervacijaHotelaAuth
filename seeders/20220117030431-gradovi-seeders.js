@@ -4,19 +4,29 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.bulkInsert('Gradovis', [
       {
-        naziv: 'Beograd'
+        naziv: 'Beograd',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {
-        naziv: 'Novi Sad'
+        naziv: 'Novi Sad',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {
-        naziv: 'Nis'
+        naziv: 'Nis',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {
-        naziv: 'Kragujevac'
+        naziv: 'Kragujevac',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {
-        naziv: 'Zrenjanin'
+        naziv: 'Zrenjanin',
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       }
     ])
   },

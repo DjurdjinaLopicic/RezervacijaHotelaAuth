@@ -23,7 +23,7 @@ module.exports = {
           min:1
         }
       },
-      tipSobeID: {
+      tipSobeId: {
         type: DataTypes.INTEGER,
         allowNull: false,
         onDelete: 'CASCADE',

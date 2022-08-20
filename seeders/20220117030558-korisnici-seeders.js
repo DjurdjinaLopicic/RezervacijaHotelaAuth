@@ -11,7 +11,9 @@ module.exports = {
         ime: "Lana",
         prezime: "Lalic",
         email: "lala@gmai.com",
-        tip: 0
+        tip: 0,
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {
         username: 'zika',
@@ -19,7 +21,9 @@ module.exports = {
         ime: "Zika",
         prezime: "Zikic",
         email: "zika@gmai.com",
-        tip: 1
+        tip: 1,
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {
         username: 'mika',
@@ -27,7 +31,9 @@ module.exports = {
         ime: "Mika",
         prezime: "Mikic",
         email: "mika@gmai.com",
-        tip: 2
+        tip: 2,
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {
         username: 'lora',
@@ -35,7 +41,9 @@ module.exports = {
         ime: "Lora",
         prezime: "Loric",
         email: "lora@gmai.com",
-        tip: 0
+        tip: 0,
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       },
       {
         username: 'bora',
@@ -43,7 +51,9 @@ module.exports = {
         ime: "Bora",
         prezime: "Boric",
         email: "bora@gmai.com",
-        tip: 1
+        tip: 1,
+        createdAt: "2022-01-17",
+        updatedAt: "2022-01-17"
       }
     ])
   },
