@@ -6068,7 +6068,6 @@ node_modules/yargs-parser/build/lib/string-utils.js
 node_modules/yargs-parser/build/lib/tokenize-arg-string.js
 node_modules/yargs-parser/build/lib/yargs-parser-types.js
 node_modules/yargs-parser/build/lib/yargs-parser.js
-.env
 node_modules/.bin/sshpk-conv
 node_modules/.bin/sshpk-conv.cmd
 node_modules/.bin/sshpk-conv.ps1
@@ -6610,3 +6609,4 @@ node_modules/verror/LICENSE
 node_modules/verror/package.json
 node_modules/verror/README.md
 node_modules/verror/lib/verror.js
+node_modules

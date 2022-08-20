@@ -14,10 +14,18 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "dialect": "mysql"
+    "username": "aovmqwsrgtrhoc",
+    "password": "9bb319b518ab813da063c404b3b03a4d7e84af4d63275930c97bfb841e070911",
+    "host": "J75DhzGu7qoR1dFLnV8bknEG6UzfhFGWadyq16eZ8YCpByJ",
+    "database": "d26c3nh4la1mql",
+    "port": 5432,
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUauthorized": false
+      }
+    }
   }
 }
